@@ -1,3 +1,5 @@
+||| Calcula a média entre dois números
+
 main : IO ()
 main = do
   putStrLn "Nota 1: "

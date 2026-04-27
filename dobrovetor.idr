@@ -1,3 +1,5 @@
+||| Recebe um vetor de inteiros e retorna o dobro deles
+
 import Data.String
 
 main : IO ()

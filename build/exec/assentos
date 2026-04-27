@@ -8,8 +8,8 @@ if [ "$(uname)" = Darwin ]; then
 else
   DIR=$(dirname "$(readlink -f -- "$0")")
 fi
-export LD_LIBRARY_PATH="$DIR/fatorial_app:$LD_LIBRARY_PATH"
-export DYLD_LIBRARY_PATH="$DIR/fatorial_app:$DYLD_LIBRARY_PATH"
-export IDRIS2_INC_SRC="$DIR/fatorial_app"
+export LD_LIBRARY_PATH="$DIR/assentos_app:$LD_LIBRARY_PATH"
+export DYLD_LIBRARY_PATH="$DIR/assentos_app:$DYLD_LIBRARY_PATH"
+export IDRIS2_INC_SRC="$DIR/assentos_app"
 
-"$DIR/fatorial_app/fatorial.so" "$@"
+"$DIR/assentos_app/assentos.so" "$@"
