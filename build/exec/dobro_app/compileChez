@@ -1,1 +1,0 @@
-(parameterize ([optimize-level 3] [compile-file-message #f]) (compile-program "/home/camila/idris-testes/build/exec/dobro_app/dobro.ss"))

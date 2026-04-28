@@ -1,1 +1,0 @@
-(parameterize ([optimize-level 3] [compile-file-message #f]) (compile-program "/home/camila/idris-testes/build/exec/media_app/media.ss"))
