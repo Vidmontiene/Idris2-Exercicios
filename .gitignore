@@ -1,0 +1,11 @@
+build/
+
+*.ttc
+*.ttm
+*.ibc
+
+*.o
+*.so
+*.exe
+
+assentos

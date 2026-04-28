@@ -6,7 +6,7 @@ import Data.String
 
 data Assento = Livre | Ocupado
 
--- Cria vetor de n assentos
+-- Define o tipo do vetor de n assentos
 Assentos : Nat -> Type
 Assentos n = Vect n Assento
 
